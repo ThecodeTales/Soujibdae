@@ -1,0 +1,36 @@
+.heading{
+	position : relative;
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.img1{
+	display : block;
+	margin-left : 40%;
+	margin-right:60% ;
+	width : 50%;
+}
+.video{
+	margin-top :0;
+	padding-top: 0;
+	padding-bottom: 40;
+}
+.body{
+	background- color: #e07b39;
+}
+
+.aside{
+	float : right;
+}
+.link2{
+	font-size: 25;
+	color: #060012;
+}
+
+.img2{
+	float: right;
+}
+.par1{
+	float: right;
+	font-size: 25;
+}

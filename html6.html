@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Journey5</title>
+  <link rel = "stylesheet" href = "soujibdae.css">
+</head>
+<body>
+  <h1>Memories</h1>
+
+
+  <div class="w3-content w3-section" style="max-width:1000px">
+  <img class="mySlides" src="10.png" style="width:100%">
+  <img class="mySlides" src="11.png" style="width:100%">
+  <img class="mySlides" src="12.png" style="width:100%">
+  <img class="mySlides" src="13.png" style="width:100%">
+  <img class="mySlides" src="14.png" style="width:100%">
+  <img class="mySlides" src="15.png" style="width:100%">
+  <img class="mySlides" src="16.png" style="width:100%">
+  <img class="mySlides" src="17.png" style="width:100%">
+  <img class="mySlides" src="18.png" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>>
