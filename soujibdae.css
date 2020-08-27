@@ -1,36 +1,40 @@
-.heading{
-	position : relative;
-	text-align: center;
-	margin-bottom: 0;
-	padding-bottom: 0;
-}
-.img1{
-	display : block;
-	margin-left : 40%;
-	margin-right:60% ;
-	width : 50%;
-}
-.video{
-	margin-top :0;
-	padding-top: 0;
-	padding-bottom: 40;
-}
-.body{
-	background- color: #e07b39;
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 
-.aside{
-	float : right;
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
-.link2{
+
+h1 {
+	text-align: center;
+}
+
+.Vid {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.link1{
+	font-weight: bold;
+	margin-top:20px;
 	font-size: 25;
 	color: #060012;
 }
 
-.img2{
-	float: right;
-}
-.par1{
-	float: right;
-	font-size: 25;
+a:hover {
+position: relative;
+top: 2px;
+left: 2px;
+text-decoration: italic;
 }
