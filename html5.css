@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(-45deg, #00ffff, #00ff00);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+	width: 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  padding-left: 5px;
+  font-family: italic;
+  font-size: 30px;
+}
+
+section {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width:50%
+}
+
+section img {
+  position: absolute;
+}
+
+.img4 {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
+
+.img3 {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-direction: alternate;
+}
+
+.img2 {
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-direction: alternate;
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.link1 {
+	position: fixed;
+	left: 20px;
+	bottom: 50px;
+	font-size: 30px;
+	color: black;
+}
+.link2 {
+	position: fixed;
+	right: 20px;
+	bottom:50px;
+	font-size: 30px;
+	color: black;
+}
