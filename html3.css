@@ -1,5 +1,19 @@
-html,body {
-  background-color: orange;
+body {
+    background: linear-gradient(-45deg, #99ff66, #ff99cc);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 h1 {
@@ -7,36 +21,29 @@ h1 {
   text-align: center;
 }
 
-.adj {
-	width: 100%;
-}
-
 p {
-  float: left;
-  width: 59%;
   padding-left: 5px;
   font-family: italic;
   font-size: 30px;
 }
 
 img {
-	float: right;
-	width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  width: 75%;
 }
 
 .link1 {
 	position: fixed;
-	bottom: 10px;
-	right: 10px;
+	left: 20px;
 	font-size: 30px;
-	margin-left: 20px;
 	color: black;
 }
 .link2 {
 	position: fixed;
-	bottom: 10px;
-	left: 10px;
+	right:20px;
 	font-size: 30px;
-	margin-left: 10px;
 	color: black;
 }
