@@ -29,9 +29,8 @@ p {
 }
 
 section {
-	margin-right: auto;
-	margin-left: auto;
-	width:50%
+	margin-left: 20px;
+	width:75%
 }
 
 #cf img {
